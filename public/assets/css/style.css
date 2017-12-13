@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    font-family: "Lato";
+    background: #eaeaea;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* =====================
+        Banner
+======================= */
+
+.main_cover {
+    background: url(../img/cover.png);
+    height: 465px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.banner .logo {
+    font-family: "Monoton";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 62px;
+    color: #fff;
+    font-size: 43px;
+    text-align: center;
+}
+
+.banner span {
+    display: block;
+    height: 20px;
+    background: #2196f3;
+}
+
+/* =====================
+        Artist List
+======================= */
+
+.artists_list {
+    box-sizing: border-box;
+    padding: 10px 20%;
+}
+
+.artists_list .artist_item {
+    display: block;
+    height: 290px;
+    background-size: cover !important;
+    position: relative;
+    background-position: center !important;
+    transition: all 1s;
+    /* margin-bottom: 20px; */
+}
+
+.artist_name {
+    background: #2196f3;
+    color: #fff;
+    padding: 7px 1%;
+    position: relative;
+    width: 98%;
+    top: 0px;
+    font-family: "Satisfy";
+    font-size: 1.5rem;
+}
+
+.artist_info {
+    overflow: hidden !important;
+    margin-top: 30px;
+}
+
+.artist_info:hover > .artist_item {
+    transform: scale(1.1);
+    transition: all 1s;
+    overflow: hidden;
+}
+
+/* .artist_info:hover > .artist_name {
+    transform: scale(1) !important;
+    transition: all 1s !important;
+    overflow: hidden;
+} */
+
+.artists_list h4 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    margin: 20px 0;
+}
+
+/* =====================
+        Header
+======================= */
+header {
+    font-family: "Monoton";
+    text-align: center;
+    font-size: 33px;
+    border-bottom: 1px solid #2196f3;
+    color: #3a3535;
+    /* font-weight: 900; */
+}
+
+/* =====================
+        Artists Bio
+======================= */
+.artist_bio {
+    box-sizing: border-box;
+    padding: 10px 30px;
+}
+
+.avatar {
+    overflow: hidden;
+}
+
+.artist_bio .avatar span {
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+    transition: all 0.5s;
+    display: block;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.artist_bio .avatar span:hover {
+    transform: scale(1.1);
+}
+
+.artist_bio h3 {
+    font-family: "Kumar One Outline";
+    font-weight: 900;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 15px 0;
+    text-transform: uppercase;
+}
+
+.artist_bio .bio_text {
+    font-family: "Ubuntu";
+    font-weight: 100;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 900px) {
+    .artists_list {
+        padding: 10px 5%;
+    }
+}
+
+/* =====================
+        Album List
+======================= */
+.albums_list {
+    margin: 20px;
+}
+
+.albums_list::after {
+    clear: both;
+    display: table;
+    content: '';
+}
+
+.albums_list > img {
+    float: left;
+    width: 50%;
+}
+
+/* =====================
+        Error Message
+======================= */
+.error_message {
+    text-align: center;
+    color: #e04337;
+    text-transform: capitalize;
+    background: #1f1e1e;
+    padding: 15px;
+}
+
+.search_artist {
+    width: 89%;
+    padding: 1%;
+    font-size: 1.2rem;
+    margin: 4%;
+    border: 1px solid #2196f3;
+    transition: all 1s;
+}
+
+.search_artist:active, .search_artist:focus {
+    outline: none;
+    border: 1px solid #e04337;
+}

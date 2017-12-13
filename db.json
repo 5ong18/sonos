@@ -1,0 +1,108 @@
+{
+  "artists": [
+    {
+        "id": 1,
+        "name": "Jimi Hendrix",
+        "cover":"jimi_hendrix",
+        "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "albums": [
+            {"albumId":"a1","title":"Electric Ladyland","year":1968,"cover":"electric-ladyland","price":20},
+            {"albumId":"a2","title":"Experience","year":1971,"cover":"experienced","price":25},
+            {"albumId":"a3","title":"Isle of Wright","year":1971,"cover":"isle_of_wright","price":15},
+            {"albumId":"a4","title":"Band of Gypsys","year":1970,"cover":"band_of_gypsys","price":10}
+        ],
+        "genre":"rock, blues"
+    },
+    {
+        "id": 2,
+        "name": "Madonna",
+        "cover":"madonna",
+        "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "albums": [
+            {"albumId":"b1","title":"Like a Virgin","year":1984,"cover":"like_a_virgin","price":20},
+            {"albumId":"b2","title":"True Blue","year":1986,"cover":"true_blue","price":25},
+            {"albumId":"b3","title":"Erotica","year":1994,"cover":"erotica","price":15},
+            {"albumId":"b4","title":"Ray of Light","year":1998,"cover":"ray_of_light","price":10}
+        ],
+        "genre":"pop"
+    },
+    {
+        "id": 3,
+        "name": "Johnny Cash",
+        "cover":"johnny_cash",
+        "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "albums": [
+            {"albumId":"c1","title":"Ain't No Grave","year":2010,"cover":"no_grave","price":20},
+            {"albumId":"c2","title":"Out Among the Stars","year":2014,"cover":"among_stars","price":25},
+            {"albumId":"c3","title":"Solitary Man","year":2000,"cover":"solitary_man","price":15},
+            {"albumId":"c4","title":"The Man Comes Around","year":2002,"cover":"man_comes_around","price":10}
+        ],
+        "genre":"pop"
+    },
+    {
+        "id": 4,
+        "name": "Pink Floyd",
+        "cover":"pink_floyd",
+        "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "albums": [
+            {"albumId":"d1","title":"The Wall","year":1979,"cover":"the_wall","price":20},
+            {"albumId":"d2","title":"The Dark Side of the Moon","year":1973,"cover":"dark_side","price":25},
+            {"albumId":"d3","title":"Animals","year":1977,"cover":"animals","price":15},
+            {"albumId":"d4","title":"The Division End","year":1994,"cover":"the_division_end","price":15}
+        ],
+        "genre":"Rock"
+    },
+    {
+        "id": 5,
+        "name": "Beyonce",
+        "cover":"beyonce",
+        "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "albums": [
+            {"albumId":"d1","title":"Lemonade","year":2016,"cover":"lemonade","price":20},
+            {"albumId":"d2","title":"4","year":2011,"cover":"4","price":25},
+            {"albumId":"d3","title":"B'Day","year":2006,"cover":"bday","price":15},
+            {"albumId":"d4","title":"I Am...Sasha Fierce","year":2008,"cover":"sasha_fierce","price":15}
+        ],
+        "genre":"Pop"
+    },
+    {
+        "id": 6,
+        "name": "Pharell Williams",
+        "cover":"pharell_williams",
+        "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "albums": [
+            {"albumId":"d1","title":"Girl","year":2014,"cover":"girl","price":20},
+            {"albumId":"d2","title":"In My Mind","year":2006,"cover":"in_my_mind","price":25},
+            {"albumId":"d3","title":"Happy","year":2013,"cover":"happy","price":15},
+            {"albumId":"d4","title":"Freedom","year":2017,"cover":"freedom","price":15}
+        ],
+        "genre":"Rap"
+    },
+    {
+        "id": 7,
+        "name": "Rihanna",
+        "cover":"rihanna",
+        "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "albums": [
+            {"albumId":"d1","title":"Good Girl Gone Bad","year":2007,"cover":"good_girl_gone_bad","price":20},
+            {"albumId":"d2","title":"Anti","year":2016,"cover":"anti","price":25},
+            {"albumId":"d3","title":"Loud","year":2010,"cover":"loud","price":15},
+            {"albumId":"d4","title":"Music of the Sun","year":2005,"cover":"music_of_the_sun","price":15}
+        ],
+        "genre":"Pop"
+    },
+    {
+        "id": 8,
+        "name": "Drake",
+        "cover":"drake",
+        "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "albums": [
+            {"albumId":"d1","title":"Views","year":2016,"cover":"views","price":20},
+            {"albumId":"d2","title":"More Life","year":2017,"cover":"more_life","price":25},
+            {"albumId":"d3","title":"Nothing Was The Same","year":2013,"cover":"nothing_was_the_same","price":15},
+            {"albumId":"d4","title":"IYRTITL","year":2015,"cover":"iyrtitl","price":15}
+        ],
+        "genre":"Rap"
+    }
+  ]
+}
