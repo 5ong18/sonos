@@ -4,7 +4,8 @@ import React, {Component} from 'react';
 import Banner from '../components/banner'
 import ArtistsList from '../components/artistList'
 
-const URL_ARTISTS = 'http://localhost:3004/artists';
+// const URL_ARTISTS = 'http://localhost:3004/artists';
+const URL_ARTISTS = 'https://achowba.github.io/sonos/db.json';
 
 class Home extends Component {
 
