@@ -5,7 +5,7 @@ import Header from './header';
 import AlbumList from './albumList';
 
 // const REQ_URL = 'http://localhost:3004/artists'
-const REQ_URL = 'https://achowba.github.io/sonos/db.json';
+const REQ_URL = 'https://my-json-server.typicode.com/achowba/sonos/artists';
 
 class Artist extends Component {
     constructor(props) {

@@ -5,7 +5,7 @@ import Banner from '../components/banner'
 import ArtistsList from '../components/artistList'
 
 // const URL_ARTISTS = 'http://localhost:3004/artists';
-const URL_ARTISTS = 'https://achowba.github.io/sonos/db.json';
+const URL_ARTISTS = 'https://my-json-server.typicode.com/achowba/sonos/artists';
 
 class Home extends Component {
 
